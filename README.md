@@ -1,4 +1,4 @@
-# Enhancing Clinical Decision Making with CBMS and LLMs
+# Enhancing Clinical Decision Making with Interpretable AI
 
 ## Files In This Repository
 | Folder | Description |
