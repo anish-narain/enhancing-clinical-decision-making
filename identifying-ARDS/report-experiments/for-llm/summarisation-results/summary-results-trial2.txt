@@ -1,0 +1,86 @@
+
+stablelm-zephyr:3b =============================================
+Summaries for hadm_id 20022465 using model stablelm-zephyr:3b:
+Discharge Summary:
+The patient is a 48-year-old male with a history of hypertension, heart failure, lung malignancy (squamous cell carcinoma), myelodysplastic syndrome (MDS) and rheumatoid arthritis (RAEB-II). He presents with symptoms of lethargy, fever, diarrhea, respiratory distress, and hypotension. He is admitted to the hospital due to presumed Clostridium difficile colitis, severe anemia related to MDS, and a possible pulmonary embolism or sepsis.
+
+During his hospitalization, he develops worsening pancytopenia due to his poor production from severe MDS and a new diagnosis of invasive squamous carcinoma infiltrating his bone marrow. He is transfused with RBCs and platelets, but experiences fever and tachycardia possibly related to ongoing infections or inflammation. Additional tests are conducted, including a possible PE investigation, but given the unstable clinical status of the patient, it's decided not to perform CT scanning.
+
+His medication regimen on admission includes atenolol, HCTZ, xalatan, metformin, nifedipine ER, potassium chloride, and simvastatin. At discharge, the expired medications listed are acetaminophen, amoxicillin, celecoxtophan, cefotetan, cefivaximan, ciprofloxacin, delafluoxacin, doxycycline, erythromycin, fosfomycin, gentamicin, hydrochloric acid, ibuprofen, indomethacin, ketoprox, metronidazole, neomycin, norfloxatin, oticquin, palquin, penicilin, piroxicam, roxithromycin, streptokinase, and tetanus toxoid.
+
+The patient's condition deteriorates, prompting further discussion about his discharge instructions and potential next steps for managing his care post-discharge.
+
+Model Info: stablelm-zephyr:3b, chunk_size=2048, chunk_overlap=100
+Summarisation time: 00 min and 41 secs
+
+llama3 =============================================
+Summaries for hadm_id 20022465 using model llama3:
+Discharge Summary:
+Here is a concise summary:
+
+A 64-year-old male patient with a history of MDS, hypertension, hyperlipidemia, and diabetes mellitus was admitted to the hospital with lethargy, fever, diarrhea, and fatigue. He had recently been discharged from the hospital after treatment for neutropenic fevers and sent home on anticoagulation therapy.
+
+The patient's condition rapidly deteriorated, with development of a septic picture, respiratory failure, and hypotension. Despite aggressive treatment, he continued to decline and passed away.
+
+The patient had multiple comorbidities, including MDS, squamous cell carcinoma, and Clostridium difficile colitis, which contributed to his poor prognosis. His laboratory results showed significant pancytopenia, with severe anemia, neutropenia, and thrombocytopenia. He also had hyperbilirubinemia and elevated D-dimer levels.
+
+The patient's hospital course was marked by frequent changes in antibiotics, pressors, and other medications to manage his multiple medical conditions. His condition continued to worsen, and he ultimately passed away.
+
+Model Info: llama3, chunk_size=2048, chunk_overlap=100
+Summarisation time: 00 min and 42 secs
+
+phi3:mini =============================================
+Summaries for hadm_id 20022465 using model phi3:mini:
+Discharge Summary:
+ Mr. ____, a 72-year-old male with a history of hypertension, hyperlipidemia, diabetes mellitus type II, and myelodysplastic syndrome (MDS) with refractory anemia with ringed sideroblasts (RDS), presented to the hospital for Clostridium difficile colitis. Despite receiving multiple antibiotics including vancomycin, cefepime, and flagyl, his condition deteriorated due to sepsis-induced hypotension requiring pressors. His clinical course was complicated by respiratory failure, pleural effusion, metabolic acidosis, pancytopenia, neutropenia, and suspected deep vein thrombosis (DVT). He passed away on __ due to progressive organ failure.
+
+Hospital course: Mr. ___ was admitted with symptoms of lethargy, fever, and diarrhea following recent antibiotic treatment for neutropenic fevers. After initially receiving oral vancomycin/cefepime, his inability to swallow resulted in a switch to intravenous administration. Subsequinas he developed severe sepsis with respiratory distress and required mechanical ventilation, pressors, and aggressive supportive measures. A bone marrow biopsy was performed for suspected osteomyelitis but the results were inconclusive due to concerns about infection. He also experienced elevated CRP/ESR levels likely related to C. difficile colitis.
+
+Medical background: Mr. ___ had a history of hypertension, hyperlipidemia, diabetes mellitus type II, and MDS with RDS. His recent hospitalization was complicated by an invasive squamous carcinoma infiltrating his bone marrow, requiring transfusion dependence.
+
+Medications at admission: Atenolol, HCTZ, Xalatan, metformin, nifedipine ER, potassium chloride, simvastatin, and aspirin (dose not specified).
+
+Discharge details: The provided information lacks discharge-related details. Further follow-up with the hospital or primary care provider is recommended to obtain a comprehensive summary of his condition and treatment plan.
+
+Model Info: phi3:mini, chunk_size=2048, chunk_overlap=100
+Summarisation time: 00 min and 48 secs
+
+gemma =============================================
+Summaries for hadm_id 20022465 using model gemma:
+Discharge Summary:
+## Concise Summary:
+
+**Patient:** 70-year-old male with MDS-RAEB-II, HTN, HLD, DM-2, and squamous cell malignancy.
+
+**Presenting Symptoms:** Lethargy, subjective fevers, diarrhea.
+
+**Diagnosis:** Clostridium difficile colitis, worsening RLE weakness (likely due to chronic hip replacement), worsening pancytopenia (likely due to MDS and cancer), elevated D-dimer.
+
+**Course:** Patient developed respiratory distress, hypotension, and worsening clinical picture despite antibiotic treatment. Despite aggressive management, he died despite maximal medical intervention.
+
+**Key Findings:**
+
+- Positive C.diff stool toxin assay.
+- Worsening left pleural effusion on CXR.
+- Mixed respiratory alkalosis and non-gap metabolic acidosis on ABG.
+- Severe MDS with pancytopenia and anemia of chronic disease.
+- Elevated D-dimer, possibly due to MDS or cancer.
+
+**Outcome:** Patient died despite medical intervention.
+
+Model Info: gemma, chunk_size=2048, chunk_overlap=100
+Summarisation time: 00 min and 47 secs
+
+mistral =============================================
+Summaries for hadm_id 20022465 using model mistral:
+Discharge Summary:
+ The patient, a 58-year-old male with a medical history of hypertension (HTN), hyperlipidemia (HLD), type 2 diabetes mellitus (DM-2), myelodysplastic syndrome (MDS-RAEB-II), and recently treated for venetoclax (Vidaza), presented with symptoms of lethargy, fevers, and diarrhea. He was admitted and diagnosed with Clostridium difficile colitis, and treated with oral metronidazole (Flagyl). However, he developed difficulty swallowing, requiring IV antibiotics. Despite treatment, the patient continued to spike fevers, tachycardia, labored breathing, and hypotension. He was transferred to the intensive care unit where he had a cardiac arrest. The cause of death is not explicitly stated in this text.
+
+During his hospitalization, he also experienced right hip pain (chronic issue following a replacement surgery several years ago), but no further investigation was done due to low clinical suspicion. He was anemic and pancytopenic due to chronic MDS and newly diagnosed invasive squamous carcinoma infiltrating his bone marrow.
+
+Upon admission, he had mildly elevated D-dimer levels, possibly due to MDS or solid carcinoma activity, and there was a concern for pulmonary embolism but the patient was considered too unstable for imaging. The patient's condition worsened, leading to cardiac arrest and eventual death.
+
+The text does not provide any follow-up instructions as the patient passed away.
+
+Model Info: mistral, chunk_size=2048, chunk_overlap=100
+Summarisation time: 00 min and 48 secs

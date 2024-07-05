@@ -1,0 +1,122 @@
+
+stablelm-zephyr:3b =============================================
+Summaries for hadm_id 20050336 using model stablelm-zephyr:3b:
+Discharge Summary:
+This is an instructions sheet for someone who had surgery and now uses a trach mask with a positive expiratory valve (PSV) to help them breathe. They are taking medications for different things like COPD, anxiety, and depression. They need to follow the discharge instructions given by the hospital and continue working with a respiratory therapist to manage their breathing with the tracheostomy tube. The person should also follow the discharge disposition, which means they will be going to an extended care facility.
+
+Model Info: stablelm-zephyr:3b, chunk_size=2048, chunk_overlap=100
+Summarisation time: 00 min and 17 secs
+
+llama3 =============================================
+Summaries for hadm_id 20050336 using model llama3:
+Discharge Summary:
+Here is a concise summary of the patient's information:
+
+**Patient Information**
+
+* Name: [not provided]
+* Unit No: [not provided]
+
+**Medical History**
+
+* Hypothyroidism: managed with outpatient Levothyroxine
+* Hyperlipidemia: managed with outpatient Simvastatin
+* Feeding tube (FEN): tube feeds via PEG at 40ml/hr, tolerating well
+
+**Medications on Admission**
+
+* Various medications for respiratory and other conditions, including inhalers, tablets, and injections
+
+**Discharge Medications**
+
+* 19 medications, including:
+	+ Respiratory medications: e.g., inhaled corticosteroids, bronchodilators
+	+ Cardiovascular medications: e.g., beta blockers, diuretics
+	+ Psychiatric medications: e.g., anxiolytics, antidepressants
+	+ Gastrointestinal medications: e.g., antacids, proton pump inhibitors
+
+**Discharge Diagnosis**
+
+* Primary: COPD (chronic obstructive pulmonary disease), tracheobronchomalacia, bronchiectasis
+* Secondary: HTN (hypertension), HL (hyperlipidemia), Hypothyroidism, GERD (gastroesophageal reflux disease), Anxiety, Depression
+
+**Discharge Condition**
+
+* Discharged on trach mask with PSV (positive end-expiratory pressure) of [not specified]
+* Tolerating well with intermittent symptomatic anxiety
+* Heart rate in 100s-110s
+* Awake and alert, able to mouth words, possibly intermittently hallucinating
+
+**Discharge Instructions**
+
+* Follow-up care with a respiratory therapist to manage breathing with tracheostomy tube
+* Follow-up instructions: [not specified]
+
+Model Info: llama3, chunk_size=2048, chunk_overlap=100
+Summarisation time: 01 min and 01 secs
+
+phi3:mini =============================================
+Summaries for hadm_id 20050336 using model phi3:mini:
+Discharge Summary:
+ Patient discharged from Extended Care facility on Trach mask due to COPD, tracheobronchomalacia, and bronchiectasis; secondary diagnoses include HTN, HL, Hypothyroidism, GERD, Anxiety, Depression. Discharge Condition: stable with intermittent symptoms of anxiety and possible hallucinations. Prescribed medications include Senna 8.6 mg BID as needed for constipation; Lorazepam 0.5 mg Q6H PRN for anxiety; Bisacodyl 5 mg TID daily for constipation; Famotidine 20 mg Q12h, Metoprolol Tartrate 25 mg BID for HTN/COPD management. Discharge Instructions: Respiratory therapy to be conducted regularly with tracheostomy tube support and G-tube nutrition maintenance; continue medication regimen as directed by attending physician.
+
+Model Info: phi3:mini, chunk_size=2048, chunk_overlap=100
+Summarisation time: 00 min and 25 secs
+
+gemma =============================================
+Summaries for hadm_id 20050336 using model gemma:
+Discharge Summary:
+## Concise Summary:
+
+**Patient:** Ms. __
+
+**Admission:** Difficulty breathing
+
+**Diagnosis:** COPD, tracheobronchomalacia, bronchiectasis
+
+**Treatment:** Mechanical ventilation with trach mask, steroids, antibiotics, bronchoscopy
+
+**Discharge:** Discharged with trach mask, tolerating well with intermittent anxiety, HR 100s-110s
+
+**Instructions:** Continue respiratory therapy with trach mask, receive nutrition through G-tube, follow up with physician and respiratory therapist
+
+**Additional Notes:**
+
+* Patient has underlying HTN, HL, Hypothyroidism, GERD, Anxiety, Depression
+* CT scan, blood tests, and bronchoscopy were negative for injury
+* Patient had difficulty weaning off mechanical ventilation due to poor lung function
+
+Model Info: gemma, chunk_size=2048, chunk_overlap=100
+Summarisation time: 00 min and 33 secs
+
+mistral =============================================
+Summaries for hadm_id 20050336 using model mistral:
+Discharge Summary:
+ **Medication List**
+
+1. Aycysteine 20% Solution: 1mL Q8H (Every 8 hours)
+2. Mirtazapine: 0.5 tablet PO HS (at bedtime)
+3. Simvastatin: 2 tablets PO QHS (once a day, at bedtime)
+4. Albuterol Sulfate for Nebulization: PRN as needed, preferably with Mucyst (when available), and Levosalbutamol as second choice
+5. Levofloxacin, Meropenem, and Vancomycin (antibiotics) as prescribed by the doctor
+6. Famotidine: 1 tablet PO Q12H (every 12 hours)
+7. Metoprolol Tartrate: 1 tablet PO BID (2 times a day)
+8. Insulin Lispro: As directed in attached insulin sliding scale
+9. Prednisone: Start with 3 tablets PO DAILY (Daily), then 20mg for 3 days, then 10mg for 4 days, and then stop
+10. Bisacodyl (as needed for constipation): 2 tablets, Delayed Release (E.C.) PO DAILY (Daily) or Fresubin oral solution as prescribed by the doctor
+11. Olanzapine: 1 tablet, Rapid Dissolve PO TID (3 times a day) as needed for agitation (given sometimes before trach mask trials)
+12. Bisacodyl ER (as needed for constipation): 2 tablets, Delayed Release (E.C.) PO DAILY (Daily)
+13. Famotidine: 1 tablet PO Q12H (every 12 hours)
+14. Metoprolol Tartrate: 1 tablet PO BID (2 times a day)
+15. Heparin, Porcine (PF): 10 unit/mL Syringe PRN (as needed) for line flush
+16. Insulin Lispro: 1 unit Subcutaneous ASDIR (AS DIRECTED)
+
+**Discharge Information**
+
+- Discharge Facility: Extended Care Facility
+- Discharge Diagnosis: Primary: COPD, tracheobronchomalacia s/p Y-stent placement, bronchiectasis; Secondary: HTN, HL, Hypothyroidism, GERD, Anxiety, Depression
+- Discharge Condition: Discharged on trach mask with PSV of ___. Tolerating well with intermittent symptomatic anxiety. HR in 100s-110s. Awake and alert, can mouth words, possibly intermittently hallucinating
+- Discharge Instructions: Detailed instructions for post-discharge care, including managing the tracheostomy tube, medication regimen, follow-up appointments, etc. (not provided in the given information)
+
+Model Info: mistral, chunk_size=2048, chunk_overlap=100
+Summarisation time: 01 min and 28 secs

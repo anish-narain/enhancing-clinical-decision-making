@@ -1,0 +1,127 @@
+#1 stablelm-zephyr:3b ============================================================================
+Summaries for hadm_id 20015730:
+Discharge Summary:
+The patient was admitted for renal cell carcinoma treatment and experienced various complications during their hospital stay. They were treated with antibiotics for MRSA and VRE, had a UTI with e-coli, required dialysis, and were intubated for confusion before improving. The patient should follow up with a renal doctor if their kidney function worsens and undergo a neurocognitive evaluation. Their medications include lopinopril, folate, protonix, vitamin C, cyanocobalamin, lipitor, and Benadryl as needed, while they should stop taking citrucel, diltiazem, triamterene/hydrochlorothiazide, and valrsartan. They should start taking fentanyl patch every 72 hours, lorazepam for nausea, vomiting, or anxiety, oral care and wound care products, tylenol for pain, ferric gluconate twice a day, and senna and colace daily to prevent constipation. The patient should notify a nurse at the facility if they experience fever, chills, shortness of breath, or inability to take oral fluids.
+
+Model Info: stablelm-zephyr:3b, chunk_size=2048, chunk_overlap=100
+Summarisation time: 00 min and 13 secs
+
+#2 llama3 ==============================================================================================
+Summaries for hadm_id 20015730:
+Discharge Summary:
+Here is a concise summary:
+
+**Patient Information**
+
+* Name: [unknown]
+* Unit No: [unknown]
+
+**Medications**
+
+* Oral medications: 20
+	+ Lipitor (20mg) daily
+	+ Folate (1mg) daily
+	+ Protonix (40mg) daily
+	+ Vit C (1g) daily
+	+ Cyanocobalamin (1g) monthly
+* Topical creams/lotions: [various]
+	+ Benadryl (hydroxyzine)
+	+ Camphor-methol
+	+ Petrolatum-mineral oil (as needed for itching)
+
+**Discharge Information**
+
+* Disposition: Home with service
+* Diagnosis:
+	+ Primary: Metastatic RCCA - s/p C1W2 HD therapy
+	+ Secondary: VRE/MRSA sepsis, acute renal failure, SBO, peripheral necrosis of digits, acute mental status changes
+* Condition: Alert, oriented, ambulatory
+
+**Discharge Instructions**
+
+* Continue taking: lipitor, folate, protonix, vit C, cyanocobalamin
+* Stop taking: citrucel, diltiazem, triamterene/hydrochlorothiazide, valsartan
+* Start taking: Benadryl (hydroxyzine), camphor-methol, petrolatum-mineral oil (as needed for itching); Lorazepam (as needed for nausea/vomiting/anxiety); oral care and wound care products; Tylenol (as needed for pain); ferrous gluconate twice daily; fentanyl patch every 72 hours; morphine (as needed for pain)
+* Follow-up: Notify [RN] at [phone number] for fever, chills, shortness of breath, or inability to take oral fluids
+
+Model Info: llama3, chunk_size=2048, chunk_overlap=100
+Summarisation time: 01 min and 03 secs
+
+#3 phi3:mini ============================================================================================
+Summaries for hadm_id 20015730:
+Discharge Summary:
+ Patient: Metastatic Renal Cell Carcinoma (RCC) post-C1W2 HD therapy with secondary conditions of VRE/MRSA sepsis, acute renal failure (resolved), SBO (resolved), peripheral necrosis of digits, and acute mental status changes.
+
+Discharge Medications: Lipitor 20mg daily; folate 1mg daily; protonix 40mg daily; vitamin C 1g daily; cyanocobalamin (1mg) sublingual monthly; Benadryl, hydroxyzine, camphor-methol, petrolatum-mineral oil as needed for itching; lorazepam as needed for nausea/vomiting/anxiety; oral care and wound care products; tylenol as needed for pain; ferrous gluconate twice daily.
+
+Discontinued Medications: Citrucel 1g BID; diltiazem 240mg BID; triamterene/hydrochlorothiazide (75/50) QD; valsartan 320mg QD.
+
+New Prescriptions: Fentanyl patch every 72 hours, caution driving and alcohol consumption; morphine as needed for pain with the same precautions; senna & colace daily (constipation prevention); miralax & bisacodyl PRN (constipation treatment).
+
+Follow-up Instructions: Report fever, chills, shortness of breath or inability to take oral fluids to RN at discharge location.
+
+Discharge Condition: Alert and oriented; ambulatory.
+
+Model Info: phi3:mini, chunk_size=2048, chunk_overlap=100
+Summarisation time: 00 min and 45 secs
+
+#4 gemma ==========
+Summaries for hadm_id 20015730:
+Discharge Summary:
+## Concise Summary:
+
+**Patient Discharge:**
+
+- Primary diagnosis: Metastatic Renal Cell Carcinoma
+- Secondary diagnoses: VRE/MRSA sepsis, UTI, peripheral necrosis of digits, confusion
+- Discharge condition: Alert, oriented, ambulatory
+- Medications: Changes made to existing medications and new medications prescribed for itching, nausea, pain, and constipation.
+
+**Medication Changes:**
+
+- Discontinued: Citrucel, Diltiazem, Triamterene/Hydrochlorothiazide, Valsartan
+- Continued: Lipitor, Folate, Protonix, Vitamin C, Cyanocobalamin
+- New: Benadryl, Hydroxyzine, Camphor-Methol, Petrolatum-Mineral Oil, Lorazepam, Oral care & wound care products, Tylenol, Ferrous Gluconate, Fentanyl patch, Morphine
+
+**Instructions:**
+
+- Take Senna and Colace daily for prevention of constipation, and Miralax and Bisacodyl if necessary.
+- Monitor creatinine levels and consult a renal doctor if it worsens.
+- Seek medical attention for fever, chills, shortness of breath, or inability to take oral fluids.
+- Follow up with provider as instructed.
+
+Model Info: gemma, chunk_size=2048, chunk_overlap=100
+Summarisation time: 00 min and 45 secs
+
+#5 mistral =============================================================================================
+Summaries for hadm_id 20015730:
+Discharge Summary:
+ The prescribed medications for the patient are as follows:
+
+1. Hydroxyzine HCl 25 mg Tablet - One (1) tablet PO Q6H (every 6 hours) as needed for pruritis. Refills: 0.
+2. Camphor-Menthol 0.5-0.5 % Lotion - One (1) Appl Topical QID (4 times a day) as needed for pruritus. Refills: 2.
+3. Acetaminophen 650 mg Tablet - One (1) tablet PO every six (6) hours as needed for pain; do not take more than 4 grams per day. Refills: 0.
+4. Ferrous Gluconate 325 mg (37.5 mg Iron) Tablet - One (1) tablet PO BID (2 times a day). Refills: 2.
+5. Fentanyl 25 mcg/hr Patch 72 hr - One (1) Patch 72 hr Transdermal Q72H (every 72 hours): remove previous patch before applying. Do not drive while using this. Refills: 0.
+6. Morphine 15 mg Tablet - As needed for pain; do not drive or drink alcohol while taking this. Refills: 0.
+7. Docusate Sodium 100 mg Capsule - One (1) capsule PO BID (2 times a day). Refills: 2.
+8. Senna 8.6 mg Tablet - One (1) tablet PO BID (2 times a day). Refills: 2.
+9. Polyethylene Glycol 3350 17 gram/dose Powder - One (1) pkt PO DAILY as needed for constipation. Refills: 2.
+10. Bisacodyl 5 mg Tablet, Delayed Release (E.C.) - Two (2) tablets as needed if constipated. Refills: Unspecified.
+11. Lorazepam - As needed for nausea, vomiting or anxiety; do not drive or drink alcohol while taking this. Refills: Unspecified.
+12. Lipitor 20mg, Folate 1mg qday, Protonix 40mg qday, Vit C 1g qday, and Cyanocobalamin 1g sc monthly - Continue current usage.
+13. Citrucel 1g bid, Diltiazem 240mg bid, Triamterene/hydrochlorothiazide 75/50mg qday, Valsartan 320mg qday - Discontinue usage.
+14. Oral care and wound care products - Use as needed for oral hygiene and wound care.
+
+The patient should also follow up with the relevant medical professionals and notify a specified nurse in case of certain symptoms or inability to take oral fluids. Additionally, the patient should monitor their kidney function closely and see a renal doctor if it worsens. The patient should also manage constipation by taking senna and colace every day, and using miralax and bisacodyl if constipated.
+
+Model Info: mistral, chunk_size=2048, chunk_overlap=100
+Summarisation time: 01 min and 28 secs
+
+#6 llama2 ==============================================================================================
+Summaries for hadm_id 20015730:
+Discharge Summary:
+This is a discharge summary for a patient who was hospitalized for renal cell carcinoma treatment. The patient had a complicated course during their hospitalization, including bacterial infections, necrosis of digits, and acute mental status changes. The patient will be discharged with various medications to continue taking, stop taking, and start taking, as well as instructions for follow-up appointments. The summary includes the patient's name, date of birth, and date of discharge, as well as a list of medications and instructions for their care after discharge.
+
+Model Info: llama2, chunk_size=2048, chunk_overlap=100
+Summarisation time: 00 min and 35 secs
